@@ -9,6 +9,7 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Net;
 using System.Threading.Tasks;
 
 namespace lab1.Controllers
@@ -32,7 +33,16 @@ namespace lab1.Controllers
         {
             //var currentUrl = HttpContext.Request.GetEncodedUrl();
             var currentUrl = _httpContextAccessor.HttpContext.Request.GetEncodedUrl();
-            _logger.LogInformation(currentUrl);
+            string host = Dns.GetHostName();
+            IPHostEntry ipE = Dns.GetHostEntry(host);
+            IPAddress[] IpA = ipE.AddressList;
+            for (int i = 0; i < IpA.Length; i++)
+            {
+                IpA.ToString();
+            }
+
+
+            _logger.LogInformation($"Url: {currentUrl}, Time: {DateTime.Now}, IP Address: {}");
             return View();
         }
 

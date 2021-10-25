@@ -29,15 +29,6 @@ namespace Services.EmailSender
 
                 await client.DisconnectAsync(true);
             }
-            /*var apiKey = Environment.GetEnvironmentVariable("NAME_OF_THE_ENVIRONMENT_VARIABLE_FOR_YOUR_SENDGRID_KEY");
-            var client = new SendGridClient(apiKey);
-            var from = new EmailAddress("admin@mycompany.com", "Администрация сайта");
-            var subjectEmail = subject;
-            var to = new EmailAddress(emailTo);
-            var plainTextContent = messageBody;
-            var htmlContent = "<strong>and easy to do anywhere, even with C#</strong>";
-            var msg = MailHelper.CreateSingleEmail(from, to, subjectEmail, plainTextContent, htmlContent);
-            var response = await client.SendEmailAsync(msg);*/
         }
     }
 }

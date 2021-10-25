@@ -9,7 +9,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Services.EmailSender;
+using Microsoft.Extensions.Logging;
 
 namespace lab1
 {
@@ -28,11 +28,15 @@ namespace lab1
             services.AddControllersWithViews();
 
             services.AddTransient<IEmailSender, MailKitEmailSender>();
+
+            services.AddHttpContextAccessor();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILoggerFactory loggerFactory)
         {
+            loggerFactory.AddFile(Configuration.GetSection("Logging"));
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();

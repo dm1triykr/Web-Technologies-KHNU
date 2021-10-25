@@ -63,6 +63,10 @@
             "SendGrid": {
               "target": "Package",
               "version": "[9.24.4, )"
+            },
+            "Serilog.Extensions.Logging.File": {
+              "target": "Package",
+              "version": "[2.0.0, )"
             }
           },
           "imports": [
@@ -134,6 +138,10 @@
             "SendGrid": {
               "target": "Package",
               "version": "[9.24.4, )"
+            },
+            "Serilog.Extensions.Logging.File": {
+              "target": "Package",
+              "version": "[2.0.0, )"
             }
           },
           "imports": [

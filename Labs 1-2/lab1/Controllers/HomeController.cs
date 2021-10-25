@@ -1,5 +1,7 @@
 ﻿using lab1.Models;
 using lab1.Models.Home;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Http.Extensions;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Services.EmailSender;
@@ -15,16 +17,22 @@ namespace lab1.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private readonly IEmailSender _emailSender;
+        private readonly IHttpContextAccessor _httpContextAccessor;
 
         public HomeController(ILogger<HomeController> logger, 
-                              IEmailSender emailSender)
+                              IEmailSender emailSender,
+                              IHttpContextAccessor httpContextAccessor)
         {
             _logger = logger;
             _emailSender = emailSender;
+            _httpContextAccessor = httpContextAccessor;
         }
 
         public IActionResult Index()
         {
+            //var currentUrl = HttpContext.Request.GetEncodedUrl();
+            var currentUrl = _httpContextAccessor.HttpContext.Request.GetEncodedUrl();
+            _logger.LogInformation(currentUrl);
             return View();
         }
 

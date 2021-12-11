@@ -1,4 +1,5 @@
 ﻿@using lab1.Models.Home;
+@using lab1.Models.File;
 
 @model EmailMessageVM;
 
@@ -590,10 +591,10 @@
                             </div>
                         </div>
                         <div class="form-group mt-3">
-                            <input type="text" class="form-control" asp-for="Subject" placeholder="Subject" required>
+                            <input type="text" class="form-control" asp-for="MessageBody" placeholder="Subject" required>
                         </div>
                         <div class="form-group mt-3">
-                            <textarea class="form-control" asp-for="MessageBody" rows="5" placeholder="messageBody" required></textarea>
+                            <textarea class="form-control" asp-for="Subject" rows="5" placeholder="messageBody" required></textarea>
                         </div>
                         <div class="my-3">
                             <div class="loading">Loading</div>
@@ -602,16 +603,8 @@
                         </div>
                         <div class="text-center"><button type="submit">Send Message</button></div>
                     </form>
-                    <!--<form method="post" asp-action="SendEmail" asp-controller="Home">
-        <input type="email" asp-for="EmailTo" placeholder="Your Email" required><br>
-        <input type="text" asp-for="Subject" placeholder="Subject" required><br>
-        <textarea asp-for="MessageBody" rows="5" placeholder="messageBody" required></textarea><br>
-        <button type="submit">Send Message</button>
-    </form>-->
-
                 </div>
             </div>
-
         </div>
     </section><!-- End Contact Section -->
 

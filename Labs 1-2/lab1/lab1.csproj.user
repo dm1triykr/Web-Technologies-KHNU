@@ -5,5 +5,7 @@
   </PropertyGroup>
   <PropertyGroup>
     <ActiveDebugProfile>lab1</ActiveDebugProfile>
+    <View_SelectedScaffolderID>RazorPageScaffolder</View_SelectedScaffolderID>
+    <View_SelectedScaffolderCategoryPath>root/Common/RazorPage</View_SelectedScaffolderCategoryPath>
   </PropertyGroup>
 </Project>

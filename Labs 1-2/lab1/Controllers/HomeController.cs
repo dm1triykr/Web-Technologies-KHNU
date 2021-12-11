@@ -31,11 +31,12 @@ namespace lab1.Controllers
 
         public IActionResult Index()
         {
-            //var currentUrl = HttpContext.Request.GetEncodedUrl();
+            
+
             var currentUrl = _httpContextAccessor.HttpContext.Request.GetEncodedUrl();
-            // Получение имени компьютера.
+
             String host = Dns.GetHostName();
-            // Получение ip-адреса.
+
             IPAddress ip = Dns.GetHostByName(host).AddressList[0];
 
             _logger.LogInformation($"Url: {currentUrl}, Time: {DateTime.Now}, IP Address: {ip}");

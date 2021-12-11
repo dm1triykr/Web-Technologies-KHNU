@@ -8,3 +8,13 @@ E:\Навчання\ВОТП\lab1\Services\obj\Debug\netcoreapp3.1\Services.Asse
 E:\Навчання\ВОТП\lab1\Services\obj\Debug\netcoreapp3.1\Services.csproj.CoreCompileInputs.cache
 E:\Навчання\ВОТП\lab1\Services\obj\Debug\netcoreapp3.1\Services.dll
 E:\Навчання\ВОТП\lab1\Services\obj\Debug\netcoreapp3.1\Services.pdb
+E:\Навчання\ВОТП\Web-Technologies-KHNU\Labs 1-2\Services\bin\Debug\netcoreapp3.1\Services.deps.json
+E:\Навчання\ВОТП\Web-Technologies-KHNU\Labs 1-2\Services\bin\Debug\netcoreapp3.1\Services.dll
+E:\Навчання\ВОТП\Web-Technologies-KHNU\Labs 1-2\Services\bin\Debug\netcoreapp3.1\Services.pdb
+E:\Навчання\ВОТП\Web-Technologies-KHNU\Labs 1-2\Services\obj\Debug\netcoreapp3.1\Services.csproj.AssemblyReference.cache
+E:\Навчання\ВОТП\Web-Technologies-KHNU\Labs 1-2\Services\obj\Debug\netcoreapp3.1\Services.GeneratedMSBuildEditorConfig.editorconfig
+E:\Навчання\ВОТП\Web-Technologies-KHNU\Labs 1-2\Services\obj\Debug\netcoreapp3.1\Services.AssemblyInfoInputs.cache
+E:\Навчання\ВОТП\Web-Technologies-KHNU\Labs 1-2\Services\obj\Debug\netcoreapp3.1\Services.AssemblyInfo.cs
+E:\Навчання\ВОТП\Web-Technologies-KHNU\Labs 1-2\Services\obj\Debug\netcoreapp3.1\Services.csproj.CoreCompileInputs.cache
+E:\Навчання\ВОТП\Web-Technologies-KHNU\Labs 1-2\Services\obj\Debug\netcoreapp3.1\Services.dll
+E:\Навчання\ВОТП\Web-Technologies-KHNU\Labs 1-2\Services\obj\Debug\netcoreapp3.1\Services.pdb

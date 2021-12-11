@@ -24,7 +24,7 @@ namespace Services.EmailSender
             using (var client = new SmtpClient())
             {
                 await client.ConnectAsync("smtp.gmail.com", 465, true);
-                await client.AuthenticateAsync("dimonk601@gmail.com", "giper4343bolA");
+                await client.AuthenticateAsync("dimonk601@gmail.com", "****");
                 await client.SendAsync(emailMessage);
 
                 await client.DisconnectAsync(true);

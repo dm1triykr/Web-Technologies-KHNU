@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5hR8VqzAuf/8/YVswasJdOrzuDLhrM7iA8SYq5uTPt1xVoe8XVt4OTcyiNbwtZP2IGKib8BuFolK9cLCNlPrsg==",
+  "dgSpecHash": "lF11/XvxyWHKxSHU9Tv1YUHf0xzdF+QzDHSmOQHwnI5hyo5P02QpNJqkRwVFKd5G1Dazh4Mv0wt5idApA51hUw==",
   "success": true,
-  "projectFilePath": "E:\\Навчання\\ВОТП\\lab1\\Services\\Services.csproj",
+  "projectFilePath": "E:\\Навчання\\ВОТП\\tmp\\Web-Technologies-KHNU\\Labs 1-2\\Services\\Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\mailkit\\2.15.0\\mailkit.2.15.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",

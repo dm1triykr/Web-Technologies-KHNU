@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "s+/L3S+CYikd/zjGN1LhyyvavH+T4WC3Omn47FLiFa6lwU6bgC8H6G8VovdxLdLn6g9PQHp9Ra4FZtvQJ1lm3w==",
+  "dgSpecHash": "bkhX+mD0tRsbLArv3/SZKC4IMqOkSgwNmHjpIXYCfCIAk4tAUbGfgKRXKRRfDlOlFcs8QVZEjZZfeKWvlM6lBg==",
   "success": true,
-  "projectFilePath": "E:\\Навчання\\ВОТП\\lab1\\lab1\\lab1.csproj",
+  "projectFilePath": "E:\\Навчання\\ВОТП\\tmp\\Web-Technologies-KHNU\\Labs 1-2\\lab1\\lab1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\mailkit\\2.15.0\\mailkit.2.15.0.nupkg.sha512",

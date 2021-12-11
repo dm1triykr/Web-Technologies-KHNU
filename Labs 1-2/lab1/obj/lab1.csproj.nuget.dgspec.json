@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Навчання\\ВОТП\\lab1\\lab1\\lab1.csproj": {}
+    "E:\\Навчання\\ВОТП\\tmp\\Web-Technologies-KHNU\\Labs 1-2\\lab1\\lab1.csproj": {}
   },
   "projects": {
-    "E:\\Навчання\\ВОТП\\lab1\\lab1\\lab1.csproj": {
+    "E:\\Навчання\\ВОТП\\tmp\\Web-Technologies-KHNU\\Labs 1-2\\lab1\\lab1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Навчання\\ВОТП\\lab1\\lab1\\lab1.csproj",
+        "projectUniqueName": "E:\\Навчання\\ВОТП\\tmp\\Web-Technologies-KHNU\\Labs 1-2\\lab1\\lab1.csproj",
         "projectName": "lab1",
-        "projectPath": "E:\\Навчання\\ВОТП\\lab1\\lab1\\lab1.csproj",
+        "projectPath": "E:\\Навчання\\ВОТП\\tmp\\Web-Technologies-KHNU\\Labs 1-2\\lab1\\lab1.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "E:\\Навчання\\ВОТП\\lab1\\lab1\\obj\\",
+        "outputPath": "E:\\Навчання\\ВОТП\\tmp\\Web-Technologies-KHNU\\Labs 1-2\\lab1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\Навчання\\ВОТП\\lab1\\Services\\Services.csproj": {
-                "projectPath": "E:\\Навчання\\ВОТП\\lab1\\Services\\Services.csproj"
+              "E:\\Навчання\\ВОТП\\tmp\\Web-Technologies-KHNU\\Labs 1-2\\Services\\Services.csproj": {
+                "projectPath": "E:\\Навчання\\ВОТП\\tmp\\Web-Technologies-KHNU\\Labs 1-2\\Services\\Services.csproj"
               }
             }
           }
@@ -91,14 +91,14 @@
         }
       }
     },
-    "E:\\Навчання\\ВОТП\\lab1\\Services\\Services.csproj": {
+    "E:\\Навчання\\ВОТП\\tmp\\Web-Technologies-KHNU\\Labs 1-2\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Навчання\\ВОТП\\lab1\\Services\\Services.csproj",
+        "projectUniqueName": "E:\\Навчання\\ВОТП\\tmp\\Web-Technologies-KHNU\\Labs 1-2\\Services\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "E:\\Навчання\\ВОТП\\lab1\\Services\\Services.csproj",
+        "projectPath": "E:\\Навчання\\ВОТП\\tmp\\Web-Technologies-KHNU\\Labs 1-2\\Services\\Services.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "E:\\Навчання\\ВОТП\\lab1\\Services\\obj\\",
+        "outputPath": "E:\\Навчання\\ВОТП\\tmp\\Web-Technologies-KHNU\\Labs 1-2\\Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

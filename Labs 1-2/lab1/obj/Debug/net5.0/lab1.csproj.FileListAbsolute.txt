@@ -1107,3 +1107,13 @@ E:\Навчання\ВОТП\Web-Technologies-KHNU\Labs 1-2\lab1\obj\Debug\net5.
 E:\Навчання\ВОТП\Web-Technologies-KHNU\Labs 1-2\lab1\obj\Debug\net5.0\ref\lab1.dll
 E:\Навчання\ВОТП\Web-Technologies-KHNU\Labs 1-2\lab1\obj\Debug\net5.0\lab1.pdb
 E:\Навчання\ВОТП\Web-Technologies-KHNU\Labs 1-2\lab1\obj\Debug\net5.0\lab1.genruntimeconfig.cache
+E:\Навчання\ВОТП\Web-Technologies-KHNU\Labs 1-2\lab1\bin\Debug\net5.0\en-US\lab1.resources.dll
+E:\Навчання\ВОТП\Web-Technologies-KHNU\Labs 1-2\lab1\obj\Debug\net5.0\lab1.csproj.GenerateResource.cache
+E:\Навчання\ВОТП\Web-Technologies-KHNU\Labs 1-2\lab1\obj\Debug\net5.0\en-US\lab1.resources.dll
+E:\Навчання\ВОТП\Web-Technologies-KHNU\Labs 1-2\lab1\obj\Debug\net5.0\Razor\Views\Shared\_SelectLanguagePartial.cshtml.g.cs
+E:\Навчання\ВОТП\Web-Technologies-KHNU\Labs 1-2\lab1\bin\Debug\net5.0\uk-UA\lab1.resources.dll
+E:\Навчання\ВОТП\Web-Technologies-KHNU\Labs 1-2\lab1\obj\Debug\net5.0\lab1.Resources.Controllers.FileController.en-US.resources
+E:\Навчання\ВОТП\Web-Technologies-KHNU\Labs 1-2\lab1\obj\Debug\net5.0\lab1.Resources.Controllers.FileController.uk-UA.resources
+E:\Навчання\ВОТП\Web-Technologies-KHNU\Labs 1-2\lab1\obj\Debug\net5.0\uk-UA\lab1.resources.dll
+E:\Навчання\ВОТП\Web-Technologies-KHNU\Labs 1-2\lab1\obj\Debug\net5.0\lab1.Resources.Views.File.UploadFile.en-US.resources
+E:\Навчання\ВОТП\Web-Technologies-KHNU\Labs 1-2\lab1\obj\Debug\net5.0\lab1.Resources.Views.File.UploadFile.uk-UA.resources

@@ -10,6 +10,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
+using System.Globalization;
+using Microsoft.AspNetCore.Localization;
 
 namespace lab1
 {
@@ -25,7 +27,24 @@ namespace lab1
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllersWithViews();
+            services.AddLocalization(options => options.ResourcesPath = "Resources");
+
+            services.AddControllersWithViews()
+                    .AddDataAnnotationsLocalization()
+                    .AddViewLocalization();
+
+            services.Configure<RequestLocalizationOptions>(options =>
+            {
+                var supportedCultures = new[]
+                {
+                    new CultureInfo("en-US"),
+                    new CultureInfo("uk-UA")
+                };
+
+                options.DefaultRequestCulture = new RequestCulture(culture: "uk-UA", uiCulture: "uk-UA");
+                options.SupportedCultures = supportedCultures;
+                options.SupportedUICultures = supportedCultures;
+            });
 
             services.AddTransient<IEmailSender, MailKitEmailSender>();
 
@@ -49,6 +68,8 @@ namespace lab1
             }
             app.UseHttpsRedirection();
             app.UseStaticFiles();
+
+            app.UseRequestLocalization();
 
             app.UseRouting();
 

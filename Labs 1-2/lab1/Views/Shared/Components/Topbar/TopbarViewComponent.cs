@@ -12,7 +12,7 @@ namespace lab1.Views.Shared.Components.Topbar
         {
             TopbarViewModel vm = new TopbarViewModel()
             {
-                IsAdminUser = true
+                IsAdminUser = false
             };
             return View(vm);
         }

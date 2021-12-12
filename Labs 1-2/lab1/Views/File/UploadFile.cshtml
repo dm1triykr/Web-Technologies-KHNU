@@ -1,12 +1,20 @@
-﻿@using lab1.Models.Home;
-@using lab1.Models.File;
+﻿@using lab1.Models.Home
+@using lab1.Models.File
+@using Microsoft.AspNetCore.Mvc.Localization
 
-@model UploadFileViewModel;
+@model UploadFileViewModel
 
 @{
     Layout = "";
-    ViewData["Title"] = "Uploading Files";
+    ViewData["Title"] = "Files";
 }
+
+@inject IViewLocalizer Localizer;
+
+<div class="text-center">
+    @await Html.PartialAsync("_SelectLanguagePartial")
+    <h1 class="display-4">@Localizer["UploadingFiles"]</h1>
+</div>
 
 <form asp-action="Upload" asp-controller="File" enctype="multipart/form-data" method="post">
     <p>Введіть назву для файла:</p> <br />

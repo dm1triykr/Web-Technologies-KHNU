@@ -2,7 +2,9 @@
 using lab1.Models.Home;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Http.Extensions;
+using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Localization;
 using Microsoft.Extensions.Logging;
 using Services.EmailSender;
 using System;
@@ -19,6 +21,7 @@ namespace lab1.Controllers
         private readonly ILogger<HomeController> _logger;
         private readonly IEmailSender _emailSender;
         private readonly IHttpContextAccessor _httpContextAccessor;
+        
 
         public HomeController(ILogger<HomeController> logger, 
                               IEmailSender emailSender,

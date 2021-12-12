@@ -326,6 +326,14 @@
         "runtime": {
           "lab1.dll": {}
         },
+        "resources": {
+          "en-US/lab1.resources.dll": {
+            "locale": "en-US"
+          },
+          "uk-UA/lab1.resources.dll": {
+            "locale": "uk-UA"
+          }
+        },
         "compile": {
           "lab1.dll": {}
         }

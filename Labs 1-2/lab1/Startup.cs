@@ -12,6 +12,7 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
 using System.Globalization;
 using Microsoft.AspNetCore.Localization;
+using FluentValidation.AspNetCore;
 
 namespace lab1
 {
@@ -30,6 +31,7 @@ namespace lab1
             services.AddLocalization(options => options.ResourcesPath = "Resources");
 
             services.AddControllersWithViews()
+                    .AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<Startup>())
                     .AddDataAnnotationsLocalization()
                     .AddViewLocalization();
 

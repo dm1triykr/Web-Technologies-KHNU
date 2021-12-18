@@ -1117,3 +1117,7 @@ E:\Навчання\ВОТП\Web-Technologies-KHNU\Labs 1-2\lab1\obj\Debug\net5.
 E:\Навчання\ВОТП\Web-Technologies-KHNU\Labs 1-2\lab1\obj\Debug\net5.0\uk-UA\lab1.resources.dll
 E:\Навчання\ВОТП\Web-Technologies-KHNU\Labs 1-2\lab1\obj\Debug\net5.0\lab1.Resources.Views.File.UploadFile.en-US.resources
 E:\Навчання\ВОТП\Web-Technologies-KHNU\Labs 1-2\lab1\obj\Debug\net5.0\lab1.Resources.Views.File.UploadFile.uk-UA.resources
+E:\Навчання\ВОТП\Web-Technologies-KHNU\Labs 1-2\lab1\bin\Debug\net5.0\FluentValidation.dll
+E:\Навчання\ВОТП\Web-Technologies-KHNU\Labs 1-2\lab1\bin\Debug\net5.0\FluentValidation.AspNetCore.dll
+E:\Навчання\ВОТП\Web-Technologies-KHNU\Labs 1-2\lab1\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
+E:\Навчання\ВОТП\Web-Technologies-KHNU\Labs 1-2\lab1\obj\Debug\net5.0\Razor\Views\Contact\ContactUs.cshtml.g.cs
